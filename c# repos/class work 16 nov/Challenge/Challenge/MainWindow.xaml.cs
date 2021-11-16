@@ -29,12 +29,12 @@ namespace Challenge
         public void addSize(object a, EventArgs e)
         {
 
-            Debug.WriteLine("Radio Buttons Pushed");
+            Debug.WriteLineIf(true, "Radio Buttons Pushed");
         }
 
        public void addCondiments (object a, EventArgs e)
         {
-            Debug.WriteLine("Checkbox Buttons Pushed");
+            Debug.WriteLineIf(true,"Checkbox Buttons Pushed");
 
         }
 
@@ -42,7 +42,7 @@ namespace Challenge
         {
             Debug.WriteLine("Combo Box Pushed");
         }
-
+       
         private void CheckBox_Click(object sender, RoutedEventArgs e)
         {
 
