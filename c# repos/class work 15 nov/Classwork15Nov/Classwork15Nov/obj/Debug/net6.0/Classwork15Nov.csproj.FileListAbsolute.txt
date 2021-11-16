@@ -1,0 +1,15 @@
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\bin\Debug\net6.0\Classwork15Nov.exe
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\bin\Debug\net6.0\Classwork15Nov.deps.json
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\bin\Debug\net6.0\Classwork15Nov.runtimeconfig.json
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\bin\Debug\net6.0\Classwork15Nov.dll
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\bin\Debug\net6.0\ref\Classwork15Nov.dll
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\bin\Debug\net6.0\Classwork15Nov.pdb
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\obj\Debug\net6.0\Classwork15Nov.csproj.AssemblyReference.cache
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\obj\Debug\net6.0\Classwork15Nov.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\obj\Debug\net6.0\Classwork15Nov.AssemblyInfoInputs.cache
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\obj\Debug\net6.0\Classwork15Nov.AssemblyInfo.cs
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\obj\Debug\net6.0\Classwork15Nov.csproj.CoreCompileInputs.cache
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\obj\Debug\net6.0\Classwork15Nov.dll
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\obj\Debug\net6.0\ref\Classwork15Nov.dll
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\obj\Debug\net6.0\Classwork15Nov.pdb
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\Classwork15Nov\Classwork15Nov\obj\Debug\net6.0\Classwork15Nov.genruntimeconfig.cache

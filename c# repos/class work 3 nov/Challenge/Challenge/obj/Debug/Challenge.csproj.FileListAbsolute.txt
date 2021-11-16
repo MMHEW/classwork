@@ -1,0 +1,7 @@
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 3 nov\Challenge\Challenge\bin\Debug\Challenge.exe.config
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 3 nov\Challenge\Challenge\bin\Debug\Challenge.exe
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 3 nov\Challenge\Challenge\bin\Debug\Challenge.pdb
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 3 nov\Challenge\Challenge\obj\Debug\Challenge.csproj.AssemblyReference.cache
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 3 nov\Challenge\Challenge\obj\Debug\Challenge.csproj.CoreCompileInputs.cache
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 3 nov\Challenge\Challenge\obj\Debug\Challenge.exe
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 3 nov\Challenge\Challenge\obj\Debug\Challenge.pdb

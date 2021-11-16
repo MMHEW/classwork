@@ -1,0 +1,8 @@
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\HospitalLbKg\HospitalLbKg\bin\Debug\HospitalLbKg.exe.config
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\HospitalLbKg\HospitalLbKg\bin\Debug\HospitalLbKg.exe
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\HospitalLbKg\HospitalLbKg\bin\Debug\HospitalLbKg.pdb
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\HospitalLbKg\HospitalLbKg\obj\Debug\HospitalLbKg.csproj.AssemblyReference.cache
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\HospitalLbKg\HospitalLbKg\obj\Debug\HospitalLbKg.csproj.SuggestedBindingRedirects.cache
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\HospitalLbKg\HospitalLbKg\obj\Debug\HospitalLbKg.csproj.CoreCompileInputs.cache
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\HospitalLbKg\HospitalLbKg\obj\Debug\HospitalLbKg.exe
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 15 nov\HospitalLbKg\HospitalLbKg\obj\Debug\HospitalLbKg.pdb
