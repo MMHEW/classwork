@@ -34,8 +34,8 @@
         <CheckBox x:Name="Cream" Grid.Column="1" Grid.Row="1" Margin="200,25,0,25" Click="addCream"> Cream</CheckBox>
 
         <Label FontWeight="Bold" Grid.Column="1" Grid.Row="2" Margin="0,0,0,0">Order Summary:</Label>
-        <TextBlock x:Name="Block" Grid.Column="1" Grid.Row="2" Margin="5,20,0,-5" Text=""/>
+        <TextBlock x:Name="Block" Grid.Column="1" Grid.Row="2" Margin="5,20,0,-5" Text="{Binding Order, Mode=TwoWay }"/>
 
-        <Button Grid.Column="0" Grid.Row="2" Margin="357,80,351,-31" Grid.ColumnSpan="2" Click="sendOrder"> Order Coffee</Button>
+        <Button Grid.Column="0" Grid.Row="2" Margin="357,80,351,-31" Grid.ColumnSpan="2" Click="denyOrder" Content="Order Coffee"/> 
     </Grid>
 </Window>
