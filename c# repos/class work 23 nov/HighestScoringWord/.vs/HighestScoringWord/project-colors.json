@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "cafb9997-e3c7-49c4-ab5e-09a9beb0c5c7": {
+      "ProjectGuid": "cafb9997-e3c7-49c4-ab5e-09a9beb0c5c7",
+      "DisplayName": "HighestScoringWord",
+      "ColorIndex": 0
+    }
+  },
+  "NextColorIndex": 1
+}

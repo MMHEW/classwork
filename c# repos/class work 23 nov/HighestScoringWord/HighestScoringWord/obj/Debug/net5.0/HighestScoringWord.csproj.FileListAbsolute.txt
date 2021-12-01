@@ -1,0 +1,16 @@
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\bin\Debug\net5.0\HighestScoringWord.exe
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\bin\Debug\net5.0\HighestScoringWord.deps.json
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\bin\Debug\net5.0\HighestScoringWord.runtimeconfig.json
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\bin\Debug\net5.0\HighestScoringWord.runtimeconfig.dev.json
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\bin\Debug\net5.0\HighestScoringWord.dll
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\bin\Debug\net5.0\ref\HighestScoringWord.dll
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\bin\Debug\net5.0\HighestScoringWord.pdb
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\obj\Debug\net5.0\HighestScoringWord.csproj.AssemblyReference.cache
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\obj\Debug\net5.0\HighestScoringWord.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\obj\Debug\net5.0\HighestScoringWord.AssemblyInfoInputs.cache
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\obj\Debug\net5.0\HighestScoringWord.AssemblyInfo.cs
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\obj\Debug\net5.0\HighestScoringWord.csproj.CoreCompileInputs.cache
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\obj\Debug\net5.0\HighestScoringWord.dll
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\obj\Debug\net5.0\ref\HighestScoringWord.dll
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\obj\Debug\net5.0\HighestScoringWord.pdb
+C:\Users\fuzzy\Desktop\classwork\c# repos\class work 23 nov\HighestScoringWord\HighestScoringWord\obj\Debug\net5.0\HighestScoringWord.genruntimeconfig.cache
