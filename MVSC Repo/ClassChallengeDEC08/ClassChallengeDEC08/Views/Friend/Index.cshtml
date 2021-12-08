@@ -1,0 +1,16 @@
+﻿
+@model FriendsList
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+@foreach(var item in Model.Friends)
+{
+    <p>@item._friendID </p>
+    <p>@item._friendName </p>
+    <p>@item._place </p>
+
+}
+
