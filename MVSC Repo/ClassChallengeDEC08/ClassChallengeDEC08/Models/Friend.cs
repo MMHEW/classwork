@@ -4,6 +4,7 @@ namespace ClassChallengeDEC08.Models
 {
     public class Friend
     {
+        
         [Required(ErrorMessage = "This is literally the easiest one to fill out.")]
         public int? _friendID { get; set; }
 
