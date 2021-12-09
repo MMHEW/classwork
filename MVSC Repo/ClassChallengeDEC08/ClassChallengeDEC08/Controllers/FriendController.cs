@@ -1,29 +1,42 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ClassChallengeDEC08.Models;
 using System.Collections.Generic;
+using ClassChallengeDEC08.Services;
+
 namespace ClassChallengeDEC08.Controllers
 {
     public class FriendController : Controller
     {
+        IFriendsList _friendsList;
+
+        //public List<Friend> friends;
+
+        //Inject service into Contrtoller
+        public FriendController(IFriendsList friendsList)
+        {
+            //Dependency Injection Reference type values
+            _friendsList = friendsList;            
+        }
+
         public IActionResult Index()
+        {         
+            return View(_friendsList);
+        }
+
+
+        [HttpGet]
+        public IActionResult InsertNewFriend()
         {
             
+            return View();
+        }
 
-            List<Friend> friends = new List<Friend>();
-
-            Friend friend1 = new Friend(1, "Jake", "North Carolina");
-            Friend friend2 = new Friend(2, "Joe", "Wisconsin");
-            Friend friend3 = new Friend(3, "Leon", "Mexico");
-
-            friends.Add(friend1);
-            friends.Add(friend2);
-            friends.Add(friend3);
-
-            FriendsList friendsList = new FriendsList();
-
-            friendsList.Friends = friends;
-
-            return View(friendsList);
+        [HttpPost]        
+        public IActionResult InsertNewFriend(Friend friend)
+        {
+            _friendsList.Friends.Add(friend);
+            
+            return View();
         }
     }
 }

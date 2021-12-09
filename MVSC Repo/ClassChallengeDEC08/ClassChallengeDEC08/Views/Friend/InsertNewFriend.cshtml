@@ -1,0 +1,31 @@
+﻿@model Friend
+@{
+}
+
+<form method = "post"  asp-action = "InsertNewFriend"  >
+    <div asp-validation-summary = "All">
+
+        <div class = "form-field">
+            <label>Friend ID</label>      
+            <input asp-for = "_friendID"/>
+            <span asp-validation-for = "_friendID"/>
+        </div>
+
+        <div class = "form-field">
+            <label>Friend Name</label>
+            <input asp-for = "_friendName"  />
+            <span asp-validation-for = "_friendName"/>
+        </div>
+
+        <div class = "form-field">
+            <label>Friend Place</label>
+            <input asp-for = "_place"/>
+            <span asp-validation-for = "_place"/>
+        </div>
+
+        <div class = "form-field">
+            <button type = "submit" value = "submit" > Submit</button> 
+        </div>
+
+    </div>
+</form>

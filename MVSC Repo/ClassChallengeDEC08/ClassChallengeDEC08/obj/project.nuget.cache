@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "M6N6c5qiPzXNAhsX++NAFY7yd6QZUn3RreTmHoqFiLonp3YvF4whdZ0NXNh1rTA7KINx/P2qdhBMWM6DUhmllw==",
+  "dgSpecHash": "IbiztJU3l/BRftH7kwOQ7ABU7xUHkdSxJ7RxXW16L/9LLU7hy6kqNJJcdZi/dCgcF7KHUBwAGyzrXhkwVpxw+g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\fuzzy\\Desktop\\Git Repos\\WhiteBoards\\ClassChallengeDEC08\\ClassChallengeDEC08\\ClassChallengeDEC08.csproj",
+  "projectFilePath": "C:\\Users\\fuzzy\\Desktop\\Git Repos\\classwork\\MVSC Repo\\ClassChallengeDEC08\\ClassChallengeDEC08\\ClassChallengeDEC08.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\fuzzy\\.nuget\\packages\\humanizer.core\\2.2.0\\humanizer.core.2.2.0.nupkg.sha512",
     "C:\\Users\\fuzzy\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",

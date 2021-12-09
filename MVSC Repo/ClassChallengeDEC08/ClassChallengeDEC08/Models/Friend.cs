@@ -1,19 +1,19 @@
-﻿namespace ClassChallengeDEC08.Models
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace ClassChallengeDEC08.Models
 {
     public class Friend
     {
-       
-        public int _friendID { get; set; }
+        [Required(ErrorMessage = "This is literally the easiest one to fill out.")]
+        public int? _friendID { get; set; }
 
+        [Required(ErrorMessage = "Are you forgetting something?")]
         public string _friendName { get; set; }
 
+        [Required(ErrorMessage = "You need this box filled too dumbo")]
+        [StringLength(25, ErrorMessage = "Name length can't be more than 25.")]
         public string _place { get; set; }
 
-        public Friend(int friendID, string friendName, string place)
-        {
-            _friendID = friendID;
-            _friendName = friendName;
-            _place = place;
-        }
+
     }
 }

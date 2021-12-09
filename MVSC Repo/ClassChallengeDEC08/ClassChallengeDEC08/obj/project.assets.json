@@ -6238,11 +6238,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fuzzy\\Desktop\\Git Repos\\WhiteBoards\\ClassChallengeDEC08\\ClassChallengeDEC08\\ClassChallengeDEC08.csproj",
+      "projectUniqueName": "C:\\Users\\fuzzy\\Desktop\\Git Repos\\classwork\\MVSC Repo\\ClassChallengeDEC08\\ClassChallengeDEC08\\ClassChallengeDEC08.csproj",
       "projectName": "ClassChallengeDEC08",
-      "projectPath": "C:\\Users\\fuzzy\\Desktop\\Git Repos\\WhiteBoards\\ClassChallengeDEC08\\ClassChallengeDEC08\\ClassChallengeDEC08.csproj",
+      "projectPath": "C:\\Users\\fuzzy\\Desktop\\Git Repos\\classwork\\MVSC Repo\\ClassChallengeDEC08\\ClassChallengeDEC08\\ClassChallengeDEC08.csproj",
       "packagesPath": "C:\\Users\\fuzzy\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fuzzy\\Desktop\\Git Repos\\WhiteBoards\\ClassChallengeDEC08\\ClassChallengeDEC08\\obj\\",
+      "outputPath": "C:\\Users\\fuzzy\\Desktop\\Git Repos\\classwork\\MVSC Repo\\ClassChallengeDEC08\\ClassChallengeDEC08\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
