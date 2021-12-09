@@ -7,6 +7,7 @@ namespace ClassChallengeDEC08.Controllers
 {
     public class FriendController : Controller
     {
+        //initializes the dependency injection of FriendsList
         IFriendsList _friendsList;
 
         //public List<Friend> friends;
@@ -15,6 +16,7 @@ namespace ClassChallengeDEC08.Controllers
         public FriendController(IFriendsList friendsList)
         {
             //Dependency Injection Reference type values
+            //See Startup.CS to see where we initialized the dependency injection
             _friendsList = friendsList;            
         }
 
@@ -30,11 +32,18 @@ namespace ClassChallengeDEC08.Controllers
             
             return View();
         }
-
+        //CREATE FRIENDS
         [HttpPost]        
         public IActionResult InsertNewFriend(Friend friend)
         {
-            _friendsList.Friends.Add(friend);
+            //checks to see if validators are happy, if they are will go back to Index page.
+            if (ModelState.IsValid)
+            {
+                
+                _friendsList.Friends.Add(friend);
+                return RedirectToAction("Index");
+            }
+            
             
             return View();
         }
