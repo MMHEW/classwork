@@ -8,9 +8,18 @@
 
 @foreach(var item in Model.Friends)
 {
-    <p>@item._friendID </p>
-    <p>@item._friendName </p>
-    <p>@item._place </p>
+    <ul>
+    
+    <li> Friends Name @item._friendName </li>
+    
+    </ul>
+    <div class ="friend-actions">
+
+        @*this asp-action calls the Details action from friend controller
+        this asp-route-id sends the id from the current item in the model to the view
+        in this case it sends an integer corresponding to the current value for friends ID*@
+        <a asp-action="Details" asp-route-id ="@item._friendID" > View Friend's Details</a>
+    </div>
 
 }
 

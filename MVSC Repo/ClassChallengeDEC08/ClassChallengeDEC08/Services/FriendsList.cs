@@ -1,5 +1,6 @@
 ﻿using System.Collections.Generic;
 using ClassChallengeDEC08.Models;
+using System.Linq;
 
 namespace ClassChallengeDEC08.Services
 
@@ -19,10 +20,39 @@ namespace ClassChallengeDEC08.Services
         {
             //sets the initial value of the Friends list
             Friends = new List<Friend>();
-            Friends.Add(new Friend() { _friendID = 1, _friendName = "Jake", _place = "North Carolina" });
-            Friends.Add(new Friend() { _friendID = 2, _friendName = "Joe", _place = "Wisconsin" });
-            Friends.Add(new Friend() { _friendID = 3, _friendName = "Leon", _place = "Mexico" });
+            Friends.Add(new Friend() { _friendID = 1, _friendName = "Jacob", _place = "North Carolina",_BirthDay = "Unknown", _Gender = "Staff Sarnt", _NickName = "Jake" });
+            Friends.Add(new Friend() { _friendID = 2, _friendName = "Joeseph", _place = "Wisconsin",_BirthDay = "Unknown", _Gender = "Male", _NickName = "Joe" });
+            Friends.Add(new Friend() { _friendID = 3, _friendName = "Fernando", _place = "Mexico", _BirthDay = "Unknown", _Gender = "Male", _NickName = "Leon" });
 
+        }
+
+        public Friend GetFriendById (int? id)
+        {
+
+            
+            //creating a new friend. SingleOrDefault attempts to retrieve a friend =>(where) friend._friendID is equal to ID
+            Friend friend = this.Friends.SingleOrDefault(friend => friend._friendID == id);
+
+            return friend;
+        }
+
+        public void DeleteFriendById(int? id)
+        {
+            //creating a new friend. SingleOrDefault attempts to retrieve a friend =>(where) friend._friendID is equal to ID
+            Friend FriendToRemove = GetFriendById(id);
+
+            //removes the Friend named FriendToRemove from the List named Friends
+            this.Friends.Remove(FriendToRemove);
+        }
+
+        public void UpdateFriendById(Friend friend, int? id)
+        {
+            //Uses the id sent from the controller to call the DeleteFriendById method
+            //(which uses the Id to delete a specific friend
+            DeleteFriendById(id);
+
+            //adds the new friend to the list with the updated information (this friend is also sent from the controller
+            this.Friends.Add(friend);
         }
 
     }

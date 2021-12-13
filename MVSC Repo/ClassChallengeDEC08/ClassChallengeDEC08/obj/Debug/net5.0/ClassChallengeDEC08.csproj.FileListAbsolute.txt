@@ -231,3 +231,5 @@ C:\Users\fuzzy\Desktop\Git Repos\classwork\MVSC Repo\ClassChallengeDEC08\ClassCh
 C:\Users\fuzzy\Desktop\Git Repos\classwork\MVSC Repo\ClassChallengeDEC08\ClassChallengeDEC08\obj\Debug\net5.0\ref\ClassChallengeDEC08.dll
 C:\Users\fuzzy\Desktop\Git Repos\classwork\MVSC Repo\ClassChallengeDEC08\ClassChallengeDEC08\obj\Debug\net5.0\ClassChallengeDEC08.pdb
 C:\Users\fuzzy\Desktop\Git Repos\classwork\MVSC Repo\ClassChallengeDEC08\ClassChallengeDEC08\obj\Debug\net5.0\ClassChallengeDEC08.genruntimeconfig.cache
+C:\Users\fuzzy\Desktop\Git Repos\classwork\MVSC Repo\ClassChallengeDEC08\ClassChallengeDEC08\obj\Debug\net5.0\Razor\Views\Friend\Details.cshtml.g.cs
+C:\Users\fuzzy\Desktop\Git Repos\classwork\MVSC Repo\ClassChallengeDEC08\ClassChallengeDEC08\obj\Debug\net5.0\Razor\Views\Friend\UpdateFriendDetails.cshtml.g.cs

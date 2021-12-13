@@ -25,6 +25,49 @@ namespace ClassChallengeDEC08.Controllers
             return View(_friendsList);
         }
 
+        public IActionResult Details (int? id)
+        {
+            //created a new friend object based off a method in the FriendsList Service
+            //sends the GetFriendsById method an id that is sent from the view using a routed id
+            Friend friend = _friendsList.GetFriendById(id);
+
+            //returns the specific friend to the view
+            return View(friend);
+        }
+
+        public IActionResult DeleteFriend(int? id)
+        {
+            //this method calls the DeleteFriendById method in the FriendsList Class (under Services)
+            
+            //uses the instantiated instance of IFriendsList to call the DeletFriendById using the 
+            //routed ID from the CSHTML document
+             _friendsList.DeleteFriendById(id);
+
+            //redirects the users view to the Index view after deleting.
+            return RedirectToAction("Index");
+        }
+     
+
+        public IActionResult UpdateFriendDetails(int? id)
+        {
+            //created a new friend object based off a method in the FriendsList Service
+            //sends the GetFriendsById method an id that is sent from the view using a routed id
+            Friend friend = _friendsList.GetFriendById(id);
+
+            //returns the specific friend to the view
+            return View(friend);
+        }
+
+        public IActionResult UpdateFriend(Friend frend)
+        {
+            //calls the UpdateFriendById function in the FriendsList class, sending it the friend and the friend's id.
+            _friendsList.UpdateFriendById(frend, frend._friendID);
+
+            //once the friend is updated you get redirected to the Index view
+            return RedirectToAction("Index");
+        }
+    
+
 
         [HttpGet]
         public IActionResult InsertNewFriend()

@@ -15,6 +15,15 @@ namespace ClassChallengeDEC08.Models
         [StringLength(25, ErrorMessage = "Name length can't be more than 25.")]
         public string _place { get; set; }
 
+        [Required(ErrorMessage = "You need this box filled too dumbo")]
+        public string _BirthDay { get; set; }
+
+        [Required(ErrorMessage = "You need this box filled too dumbo")]
+        public string _NickName{ get; set; }
+
+        [Required(ErrorMessage = "You need this box filled too dumbo")]   
+        public string _Gender { get; set; }
+
 
     }
 }
