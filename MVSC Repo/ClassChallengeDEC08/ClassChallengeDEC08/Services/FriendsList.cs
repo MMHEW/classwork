@@ -45,14 +45,10 @@ namespace ClassChallengeDEC08.Services
             this.Friends.Remove(FriendToRemove);
         }
 
-        public void UpdateFriendById(Friend friend, int? id)
+       public void UpdateFriendById(Friend friend, int id)
         {
-            //Uses the id sent from the controller to call the DeleteFriendById method
-            //(which uses the Id to delete a specific friend
-            DeleteFriendById(id);
-
-            //adds the new friend to the list with the updated information (this friend is also sent from the controller
-            this.Friends.Add(friend);
+            //changes friend at position ID-1 (the place in the list it is) to the friend that is passed from controller
+            Friends[id - 1] = friend;
         }
 
     }

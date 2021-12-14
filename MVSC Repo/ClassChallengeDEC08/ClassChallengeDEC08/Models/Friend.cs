@@ -6,7 +6,7 @@ namespace ClassChallengeDEC08.Models
     {
         
         [Required(ErrorMessage = "This is literally the easiest one to fill out.")]
-        public int? _friendID { get; set; }
+        public int _friendID { get; set; }
 
         [Required(ErrorMessage = "Are you forgetting something?")]
         public string _friendName { get; set; }

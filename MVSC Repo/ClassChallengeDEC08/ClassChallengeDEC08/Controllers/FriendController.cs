@@ -58,10 +58,10 @@ namespace ClassChallengeDEC08.Controllers
             return View(friend);
         }
 
-        public IActionResult UpdateFriend(Friend frend)
+        public IActionResult UpdateFriend(Friend friend)
         {
             //calls the UpdateFriendById function in the FriendsList class, sending it the friend and the friend's id.
-            _friendsList.UpdateFriendById(frend, frend._friendID);
+            _friendsList.UpdateFriendById(friend, friend._friendID);
 
             //once the friend is updated you get redirected to the Index view
             return RedirectToAction("Index");
@@ -76,6 +76,7 @@ namespace ClassChallengeDEC08.Controllers
             return View();
         }
         //CREATE FRIENDS
+
         [HttpPost]        
         public IActionResult InsertNewFriend(Friend friend)
         {

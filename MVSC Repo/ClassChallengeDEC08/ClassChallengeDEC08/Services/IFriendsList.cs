@@ -12,6 +12,6 @@ namespace ClassChallengeDEC08.Services
 
         public void DeleteFriendById(int? id);
 
-        public void UpdateFriendById(Friend friend,int? id);
+        public void UpdateFriendById(Friend friend, int id);
     }
 }
