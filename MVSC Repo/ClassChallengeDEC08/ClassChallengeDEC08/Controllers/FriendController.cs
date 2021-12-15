@@ -21,7 +21,8 @@ namespace ClassChallengeDEC08.Controllers
         }
 
         public IActionResult Index()
-        {         
+        {
+            ViewBag.name = "Displaying friends list";
             return View(_friendsList);
         }
 
@@ -30,7 +31,7 @@ namespace ClassChallengeDEC08.Controllers
             //created a new friend object based off a method in the FriendsList Service
             //sends the GetFriendsById method an id that is sent from the view using a routed id
             Friend friend = _friendsList.GetFriendById(id);
-
+            ViewBag.FriendName = friend._friendName;
             //returns the specific friend to the view
             return View(friend);
         }
@@ -53,7 +54,7 @@ namespace ClassChallengeDEC08.Controllers
             //created a new friend object based off a method in the FriendsList Service
             //sends the GetFriendsById method an id that is sent from the view using a routed id
             Friend friend = _friendsList.GetFriendById(id);
-
+            ViewBag.FriendName = friend._friendName;
             //returns the specific friend to the view
             return View(friend);
         }
