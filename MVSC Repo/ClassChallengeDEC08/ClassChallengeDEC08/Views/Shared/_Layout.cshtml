@@ -36,17 +36,24 @@
                             
                         
                     </ul>
-                    <p class ="justify-justify-content-end">@ViewData["Desc"] </p>
+                    <p class ="justify-justify-content-end">@ViewData["Desc"]  &nbsp;</p>
+                   
                     <p class = "justify-content-between"> @ViewBag.FriendName</p>
                     
                 </div>
             </div>
         </nav>
     </header>
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
+
+<div class="container">
+       <div class="row">
+            <div class="col">
+                 @RenderBody()
+            </div>
+            <div class="col">
+                 @RenderSection("Instructions", false)
+            </div>
+       </div>
     </div>
 
     <footer class="border-top footer text-muted">
