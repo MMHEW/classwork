@@ -1,0 +1,35 @@
+﻿
+@model List<Friend>
+@{
+    ViewData["Title"] = "Index";
+    ViewData["Desc"] = "A list of all your friends";
+}
+
+<h1>Index</h1>
+
+@foreach(var item in Model)
+{
+    <ul>
+    
+    <li> Friends Name @item._friendName </li>
+    
+    </ul>
+    <div class ="friend-actions">
+
+        @*this asp-action calls the Details action from friend controller
+        this asp-route-id sends the id from the current item in the model to the view
+        in this case it sends an integer corresponding to the current value for friends ID*@
+        <a asp-action="Details" asp-route-id ="@item._friendID" > View Friend's Details</a>
+    </div>
+
+}
+
+ @section Instructions{
+        <div class = "justify-content-end">
+            <p> Here is where you keep all your friends</p>
+            <br />
+            <p> Did I say Keep?</p>
+            <p> What I meant to say was ethically store</p>
+        </div>
+    }
+

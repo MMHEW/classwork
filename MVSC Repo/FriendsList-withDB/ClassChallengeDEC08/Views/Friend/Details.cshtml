@@ -1,0 +1,34 @@
+﻿
+@model Friend
+@{
+    ViewData["Desc"] = "All the juicy stuff about:  ";
+}
+
+    <div>
+    <p> Friends Id Is:        @Model._friendID </p>
+    <p> Friends Name Is:      @Model._friendName</p>
+    <p> Friends Place Is :    @Model._place</p>
+    <p> Friends Birthday Is:  @Model._BirthDay</p>
+    <p>Friends Gender Is:     @Model._Gender</p>
+    <p>Friends Nick Name Is:  @Model._NickName</p>
+    </div>
+
+    @*
+        Adds a Button to delete a friend by its ID (check friend Controller for more information)
+    *@
+    <button><a asp-action="UpdateFriendDetails" asp-route-id ="@Model._friendID" > Update Friend Information</a></button>
+    <br />
+    <button><a asp-action="DeleteFriend" asp-route-id ="@Model._friendID" > Delete This Friend</a></button>
+    <br />
+    @* 
+        Adds a back button to send the user back the the index friend page (where it prints the friends names and gives the option
+        to view details.
+    *@
+    <button> <a class = "nav-link" asp-area="" asp-controller="Friend" asp-action="Index"> Back </a></button>
+    @section Instructions{
+        <div class = "justify-content-end">
+            <p> Here you will see all the juicy stuff about @Model._friendName</p>
+            <br />
+            <p> You can also chose to delete this person from exsistence or go back to your hall of friends</p>
+        </div>
+    }
